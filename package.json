@@ -1,0 +1,45 @@
+{
+    "name": "CSMonitor",
+    "version": "0.1.0",
+    "description": "A monitor to check coding standars when you commit SVN or GIT",
+
+    "author": {
+        "name": "Federico Lozada Mosto",
+        "email": "mostofreddy@gmail.com"
+    } ,
+    "contributors": [
+        {
+            "name": "Andres Lozada Mosto",
+            "email": "alfathenus@gmail.com"
+        }
+    ],
+
+    "engines": {
+        "node": ">=0.6.14"
+    },
+    "dependencies" : {
+        "express": ">= 3.1.0",
+        "jade": ">= 0.28.1",
+        "socket.io": ">= 0.9.0",
+    },
+    "noAnalyze": true,
+    "license": "MIT",
+
+    "main": "./server.js",
+
+    "bugs": {
+        "url" : "https://github.com/mostofreddy/csmonitor/issues",
+        "email" : "mostofreddy@gmail.com"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/mostofreddy/csmonitor.git"
+    },
+
+    "keywords": [
+        "monitor",
+        "CS",
+        "Coding",
+        "stats"
+    ]
+}
