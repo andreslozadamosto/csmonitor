@@ -1,12 +1,53 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
-  "private": true,
-  "scripts": {
-    "start": "node app"
-  },
-  "dependencies": {
-    "express": "3.1.0",
-    "jade": "*"
-  }
+    "name": "CSMonitor",
+    "version": "0.0.1",
+    "private": true,
+    "description":"A monitor to check coding standars when you commit SVN or GI",
+    "keywords": [
+        "monitor",
+        "CS",
+        "Coding",
+        "stats"
+    ],
+
+    "maintainers":[
+        {
+            "name": "Federico Lozada Mosto",
+            "email": "mostofreddy@gmail.com"
+        },
+        {
+            "name": "Andres Lozada Mosto",
+            "email": "alfathenus@gmail.com"
+        }
+    ],
+
+    "main": "./server.js",
+    "scripts": {
+        "start": "node server"
+    },
+
+    "dependencies": {
+        "express": ">= 3.1.0",
+        "jade": ">= 0.28.1",
+        "socket.io": ">= 0.9.0"
+    },
+    "engines": {
+        "node": ">=0.6.14"
+    },
+
+    "bugs": {
+        "url" : "https://github.com/mostofreddy/csmonitor/issues",
+        "email" : "mostofreddy@gmail.com"
+    },
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/mostofreddy/csmonitor.git"
+    },
+
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ]
 }
